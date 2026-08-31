@@ -1,0 +1,1 @@
+import{a5 as s}from"../index85478.js";class c{static async fetchUsers(t){return await s.get("/users",{params:t})}static async fetchUserDetail(t){return await s.get(`/users/${t}`)}static async createUser(t){return await s.post("/users",t)}static async updateUser(t,a){return await s.patch(`/users/${t}`,a)}}export{c as U};
